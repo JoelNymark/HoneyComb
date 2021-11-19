@@ -104,25 +104,15 @@ a>.material-icons:hover{
     cursor: pointer;
 }
 
-/* .testclass{
-    transform: skewX(-30deg);
-}
-
-.rhombus{
-    position: absolute;
-    background-color: #f9d230;
-    margin: 100px auto;
-    width: 225px;
+.test{
+    width: 250px;
     height: 70px;
-    top: 48%;
-    left: 72%;
-    
-
+    background-color: #f9d230;
+    margin: 10px 0 0 120px;
 
     animation: 1s ease 0s 1 slideInFromLeft;
+    transform: skewX(-30deg);
 }
-
-
 
 @keyframes slideInFromLeft {
     0% {
@@ -131,4 +121,4 @@ a>.material-icons:hover{
     100% {
         transform: translateX(0);
     }
-} */
+}

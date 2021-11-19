@@ -1,7 +1,7 @@
 var j = 0;
 var p = 0;
 function expand(){
-    // var x = document.getElementById("rhombus")
+    var x = document.getElementById("projectObject")
     let menu = document.getElementById('menu');
     let menuItems = menu.children;
     if(j == 0){
@@ -25,21 +25,21 @@ function expand(){
         menuItems[3].style.transform = "translateY(0px)";
         menuItems[4].style.transform = "translate(0px, 0px)";
         menuItems[5].style.transform = "translate(0px, 0px)";
-        // x.style.display = "none";
+        x.style.display = "none";
         j = 0
     }
 }
 
 
 
-// function expandProjects(){
-//     var x = document.getElementById("rhombus")
-//     if(p == 0){
-//         x.style.display = "block";
-//         p = 1;
-//     }
-//     else{
-//         x.style.display = "none";
-//         p = 0;
-//     }
-// }
+function expandProjects(){
+    var x = document.getElementById("projectObject")
+    if(p == 0){
+        x.style.display = "block";
+        p = 1;
+    }
+    else{
+        x.style.display = "none";
+        p = 0;
+    }
+}
